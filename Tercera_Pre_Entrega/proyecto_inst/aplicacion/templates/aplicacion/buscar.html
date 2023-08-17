@@ -1,0 +1,17 @@
+{% extends 'aplicacion/base.html' %}
+{% load static %}
+
+{% block titulo %}
+    <h3>Que desea Buscar?</h3>
+{% endblock titulo %}
+
+{% block contenido %}
+<section class="page-section" id="services">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">¿Que desea Buscar?</h2>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'buscar_turno' %}">Buscar Turno</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'buscar_paciente' %}">Buscar Paciente</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'buscar_profesional' %}">Buscar Profesional</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'buscar_consultorio' %}">Buscar Consultorio</a>
+{% endblock contenido %}

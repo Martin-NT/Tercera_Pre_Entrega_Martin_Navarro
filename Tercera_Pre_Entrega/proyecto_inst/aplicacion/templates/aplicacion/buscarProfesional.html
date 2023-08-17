@@ -1,0 +1,30 @@
+{% extends 'aplicacion/base.html' %}
+{% load static %}
+
+{% block titulo %}
+    Buscar Profesionales
+{% endblock titulo %}
+
+{% block contenido %}
+    <div class="container">
+        <div class="row justify-content-center mt-5"> 
+            <div class="col-md-6 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Buscar un Profesional</h2>
+                        <form action="{% url 'buscar4' %}" method="GET">
+                            {% csrf_token %}
+                            <div class="text-center">
+                                <label for="buscar" class="form-label">Patrón a Buscar en Profesionales:</label>
+                                <input type="text" name="buscar" id="buscar" class="form-control">
+                            </div>
+                            <div class="text-center mt-3"> 
+                                <button type="submit" class="btn btn-primary">Buscar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock contenido %}
