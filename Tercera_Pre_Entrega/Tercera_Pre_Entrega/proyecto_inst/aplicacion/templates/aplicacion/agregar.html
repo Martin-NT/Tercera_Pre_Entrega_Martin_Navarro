@@ -1,0 +1,17 @@
+{% extends 'aplicacion/base.html' %}
+{% load static %}
+
+{% block titulo %}
+    <h3>Que desea Agregar?</h3>
+{% endblock titulo %}
+
+{% block contenido %}
+<section class="page-section" id="services">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">¿Que desea Agregar?</h2>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'turno_form' %}">Agregar Turno</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'paciente_form' %}">Agregar Paciente</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'profesional_form' %}">Agregar Profesional</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="{% url 'consultorio_form' %}">Agregar Consultorio</a>
+{% endblock contenido %}
