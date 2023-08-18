@@ -110,7 +110,7 @@ class ConsultorioForm(forms.Form):
             'class': 'form-control mb-3'
         }),
         required=True,
-        label='Fecha del Turno'
+        label='Fecha de Uso del Consultorio'
     )
     horario = forms.TimeField(
         widget=forms.TimeInput(attrs={
@@ -118,6 +118,6 @@ class ConsultorioForm(forms.Form):
             'class': 'form-control mb-3'
         }),
         required=True,
-        label='Horario del Turno'
+        label='Horario del Consultorio'
     )
 
