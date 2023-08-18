@@ -1,7 +1,7 @@
-Nombre: Martin Navarro
-Pre-Entrega 3
+# Nombre: Martin Navarro
+# Pre-Entrega 3
 
-Proyecto: Instituto Creciendo Juntos
+# Proyecto: Instituto Creciendo Juntos
 
 Mi proyecto consiste en el desarrollo de una aplicación diseñada específicamente para el funcionamiento de un Instituto donde mi mama trabaja. Esta aplicación tiene como objetivo principal mejorar la organización en términos de turnos, pacientes y la colaboración entre compañeros de trabajo.
 
@@ -11,7 +11,7 @@ La aplicación se diseñará teniendo en cuenta las necesidades específicas del
 
 En conclusión, mi objetivo con este proyecto es contribuir a la mejora general de la gestión en el Instituto, brindando una solución tecnológica que simplifique las tareas diarias y promueva una mayor coordinación entre todos los involucrados.
 
-Modelos:
+# Modelos:
 
 Paciente -> Atributos = {nombre, apellido, edad y estado}
 Profesional -> Atributos = {nombre, apellido, profesion y dias_atencion}
@@ -19,7 +19,7 @@ Turno -> Atributos = {paciente, dia, horario y profesional}
 Consultorio -> Atributos = {nombre, profesional, dia y horario}
 
 
-Funcionalidades:
+# Funcionalidades:
 
 Mi aplicación ofrece diversas funciones que permiten visualizar, agregar y buscar pacientes, profesionales, turnos y consultorios, además de brindar un apartado dedicado a la información institucional.
 
