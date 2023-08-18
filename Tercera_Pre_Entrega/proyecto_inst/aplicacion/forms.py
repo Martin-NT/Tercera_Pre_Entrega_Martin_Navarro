@@ -29,7 +29,7 @@ class TurnoForm(forms.Form):
     )
     profesional = forms.ModelChoiceField(
         queryset=Profesional.objects.all(),
-        label="Profesión Elegida",
+        label="Elija Profesional a pedir Turno ",
         required=True,
         widget=forms.Select(attrs={'class': 'form-select mb-3'})
     )
